@@ -1,0 +1,25 @@
+{
+  "name": "hadron-theme-nodus",
+  "description": "Nodus theme for Hadron",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hadronjs/hadron-theme-nodus",
+  "author": {
+    "name": "Mario Casciaro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hadronjs/hadron-theme-nodus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hadronjs/hadron-theme-nodus/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hadronjs/hadron-theme-nodus/blob/master/LICENSE"
+    }
+  ],
+  "peerDependencies": {
+    "hadron": "~0.1.0"
+  }
+}
