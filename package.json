@@ -20,6 +20,7 @@
     }
   ],
   "peerDependencies": {
-    "hadron": "~0.1.0"
+    "hadron": "~0.1.0",
+    "particles-font-awesome": "~0.1.0"
   }
 }
