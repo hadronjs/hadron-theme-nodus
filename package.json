@@ -1,7 +1,7 @@
 {
   "name": "hadron-theme-nodus",
   "description": "Nodus theme for Hadron",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/hadronjs/hadron-theme-nodus",
   "author": {
     "name": "Mario Casciaro"
@@ -20,7 +20,7 @@
     }
   ],
   "peerDependencies": {
-    "hadron": "~0.1.0",
-    "particles-font-awesome": "~0.1.0"
+    "hadron": "~0.2.0",
+    "particles-font-awesome": "~0.2.0"
   }
 }
