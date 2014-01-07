@@ -104,7 +104,7 @@ a {
 
   .title {
     margin: 0;
-    margin-left: 100px;
+    margin-left: 70px;
     line-height: 65px;
     display: inline-block;
   }
@@ -114,42 +114,13 @@ a {
   display: none;
 
   position: absolute;
-  margin-left: 50px;
+  margin-left: 15px;
   top: 25%;
 }
 
 
 .inset {
   padding: 20px;
-}
-
-@media (max-width: @screen-md) {
-  #wrapper {
-    padding-left: 0;
-  }
-  
-  #sidebar-wrapper {
-    left: 0;
-  }
-  
-  #wrapper.active {
-    position: relative;
-    left: @sidebar-width;
-  }
-  
-  #wrapper.active #sidebar-wrapper {
-    left: @sidebar-width;
-    width: @sidebar-width;
-    transition: all 0.4s ease 0s;
-  }
-  
-  #menu-toggle {
-    display: inline-block;
-  }
-  
-  .inset {
-    padding: 15px;
-  }
 }
 
 .sidebar-brand {
@@ -212,6 +183,61 @@ a {
 }
 
 
+.share-button {
+  width: 110px;
+  display: inline-block;
+}
+
+.fb-share-button {
+  top: -5px;
+}
+
+/*********************************************
+          MOBILE
+*********************************************/
+
+@media (max-width: @screen-md) {
+  .page-content {
+    margin: 24px 15px;
+  }
+
+  #wrapper {
+    padding-left: 0;
+  }
+
+  #sidebar-wrapper {
+    left: 0;
+  }
+
+  #wrapper.active {
+    position: relative;
+    left: @sidebar-width;
+  }
+
+  #wrapper.active #sidebar-wrapper {
+    left: @sidebar-width;
+    width: @sidebar-width;
+    transition: all 0.4s ease 0s;
+  }
+
+  #menu-toggle {
+    display: inline-block;
+  }
+
+  .inset {
+    padding: 15px;
+  }
+  
+  .content-header h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: @screen-xs) {
+  .content-header h1 {
+    font-size: 20px;
+  }
+}
 
 /*********************************************
           CONTENT
@@ -245,7 +271,7 @@ article {
   }
 
   .share-buttons {
-    margin-left: 70px
+    margin-top: 15px
   }
 
   .article-content {
